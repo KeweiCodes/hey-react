@@ -14,6 +14,7 @@ This project aims to help developers kickoff into the current world of React.js 
 * __Linting__ with ESLint
 * Easily publish to __Github Pages__
 * Easily configure __constants__ for different compile environments e.g. development/staging/production
+* A comprehensive example of how everything works
 
 ######To install:
     npm install hey-react
