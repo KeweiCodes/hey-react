@@ -14,6 +14,9 @@ This project aims to help developers kickoff into the current world of React.js 
 * __Linting__ with ESLint
 * Easily configure __constants__ for different deployment environments
 
+###Instructions
+    npm install hey-react
+
 #####Why should I use this starter kit?
 * You're new to all this React stuff and you just want to start hacking at it straight away
 * You want the latest suite of development tools available and you're tired of config shenanigans
