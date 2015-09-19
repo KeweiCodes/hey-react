@@ -1,5 +1,6 @@
 {
-  "name": "react-kickoff",
+  "name": "react-go",
+  "description": "This project aims to help developers kickoff into the current world of React.js development.",
   "version": "1.0.0",
   "author": "Kewei Jiang",
   "dependencies": {
@@ -48,15 +49,22 @@
     "webpack": "^1.9.0",
     "webpack-dev-server": "^1.9.0"
   },
+  "keywords": [
+    "Alt",
+    "Javascript",
+    "React",
+    "Starter",
+    "Testing"
+  ],
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack --config conf/webpack.production.js",
-    "build.staging": "./node_modules/.bin/webpack --config conf/webpack.staging.js",
     "build.gh": "npm run build && node ./build-gh-pages.js && rm -rf ./dist",
     "build.gh.staging": "npm run build.staging && node ./build-gh-pages.js && rm -rf ./dist",
+    "build.staging": "./node_modules/.bin/webpack --config conf/webpack.staging.js",
     "start": "./node_modules/.bin/webpack-dev-server --port 8081 --config ./conf/webpack.development.js --hot --progress --colors --inline --content-base ./build",
     "test": "TEST_ENV=development karma start ./conf/karma.conf.js ",
-    "test.staging": "TEST_ENV=staging karma start ./conf/karma.conf.js",
-    "test.production": "TEST_ENV=production karma start ./conf/karma.conf.js"
+    "test.production": "TEST_ENV=production karma start ./conf/karma.conf.js",
+    "test.staging": "TEST_ENV=staging karma start ./conf/karma.conf.js"
   }
 }
