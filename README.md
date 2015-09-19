@@ -44,4 +44,4 @@ This project aims to help developers kickoff into the current world of React.js 
 * I think this starter kit sucks and I'm going to leave a message why
 
 ###Credits
-This starter pack was heavily influenced by [YARSK](https://github.com/bradleyboy/yarsk) by [bradleyboy](https://github.com/bradleyboy) as well as [react-flux-testing]https://github.com/kentor/react-flux-testing by [kentor](https://github.com/kentor)
+This starter pack was heavily influenced by [YARSK](https://github.com/bradleyboy/yarsk) by [bradleyboy](https://github.com/bradleyboy) as well as [react-flux-testing](https://github.com/kentor/react-flux-testing) by [kentor](https://github.com/kentor)
