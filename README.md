@@ -12,6 +12,7 @@ This project aims to help developers kickoff into the current world of React.js 
 * __Sass__, __Scss__, __Less__ support
 * __Bower components__ support
 * __Linting__ with ESLint
+* Easily configure __constants__ for different deployment environments
 
 #####Why should I use this starter kit?
 * You're new to all this React stuff and you just want to start hacking at it straight away
