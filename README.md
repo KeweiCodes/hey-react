@@ -5,7 +5,7 @@ This project aims to help developers kickoff into the current world of React.js 
 ##Features:
 * __Flux__ implementation with Alt.js
 * __React router__
-* __Automated testing__ with Mocha, Jasmine and Karma 
+* __Automated testing__ with Mocha, Jasmine and Karma
 * __Coverage stats__ with Istanbul
 * __ES6+ support__ with Babel
 * __Hot reload__ with webpack-dev-server
@@ -23,7 +23,7 @@ This project aims to help developers kickoff into the current world of React.js 
 
 ######To run tests (default: development environment):
     npm test
-    
+
 ######To compile in production env (default: production environment):
     npm run build
 
@@ -42,3 +42,6 @@ This project aims to help developers kickoff into the current world of React.js 
 * This setup has been too heavily configured and exceeds your needs
 * I'm already an expert at Webpack and React
 * I think this starter kit sucks and I'm going to leave a message why
+
+###Credits
+This starter pack was heavily influenced by [YARSK](https://github.com/bradleyboy/yarsk) by [bradleyboy](https://github.com/bradleyboy) as well as [react-flux-testing]https://github.com/kentor/react-flux-testing by [kentor](https://github.com/kentor)
