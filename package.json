@@ -1,7 +1,7 @@
 {
-  "name": "react-go",
+  "name": "hey-react",
   "description": "This project aims to help developers kickoff into the current world of React.js development.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Kewei Jiang",
   "dependencies": {
     "alt": "*",
