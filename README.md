@@ -1,4 +1,4 @@
-# react-kickoff
+# Hey, React!
 
 This project aims to help developers kickoff into the current world of React.js development.
 
