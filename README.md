@@ -15,24 +15,23 @@ This project aims to help developers kickoff into the current world of React.js 
 * Easily publish to __Github Pages__
 * Easily configure __constants__ for different compile environments e.g. development/staging/production
 
-####Instructions:
-
-To install:
+######To install:
     npm install hey-react
 
-To start the webpack dev server (default: development environment):
+######To start the webpack dev server (default: development environment):
     npm start
 
-To run tests (default: development environment):
+######To run tests (default: development environment):
     npm test
     
-To compile in production env (default: production environment):
+######To compile in production env (default: production environment):
     npm run build
 
-To run tests/compile in another env:
+######To run tests/compile in another env:
     npm run test.[env]
     npm run build.[env]
 
+###FAQs
 #####Why should I use this starter kit?
 * You're new to all this React stuff and you just want to start hacking at it straight away
 * You want the latest suite of development tools available and you're tired of config shenanigans
