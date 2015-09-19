@@ -16,8 +16,10 @@ This project aims to help developers kickoff into the current world of React.js 
 * Easily configure __constants__ for different compile environments e.g. development/staging/production
 * A comprehensive example of how everything works in the form of a list app
 
-######To install:
-    npm install hey-react
+######To get started:
+    git clone https://github.com/KeweiCodes/hey-react.git
+    cd hey-react
+    npm install
 
 ######To start the webpack dev server (default: development environment):
     npm start
