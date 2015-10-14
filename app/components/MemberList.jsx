@@ -1,6 +1,6 @@
 import MemberActions from '../actions/MemberActions';
 import MemberStore from '../stores/MemberStore';
-import React from 'react/addons';
+import React from 'react';
 import constants from "CONSTANTS"
 
 class MemberList extends React.Component{

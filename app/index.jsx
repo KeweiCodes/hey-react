@@ -1,9 +1,10 @@
 import '../css/main';
-
 import React from "react";
-var Router = require('react-router');
-var router = require("./router");
+import ReactDOM from "react-dom";
+var { Router } = require('react-router');
+var routes = require("./routes");
 
-router.run((Root) => {
-    React.render(<Root />, document.body);
-});
+import createBrowserHistory from 'history/lib/createBrowserHistory'
+let history = createBrowserHistory()
+
+ReactDOM.render(<Router history={history}>{routes}</Router>, document.getElementById('app'));
