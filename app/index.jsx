@@ -1,4 +1,4 @@
-import '../css/main';
+import '../static/css/main';
 import React from "react";
 import ReactDOM from "react-dom";
 var { Router } = require('react-router');
