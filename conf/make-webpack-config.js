@@ -32,6 +32,9 @@ module.exports = function(options) {
     entry: './app/index.jsx',
     debug: !options.production,
     devtool: options.devtool,
+    devServer: {
+      historyApiFallback: true
+    },
     output: {
       path: options.production ? './dist' : './build',
       publicPath: options.production ? '' : 'http://localhost:8081/',
